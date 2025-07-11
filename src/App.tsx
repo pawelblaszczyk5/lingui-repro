@@ -15,7 +15,7 @@ function App() {
     loadCatalog("en");
   }, []);
 
-  const userCreatedText = "<script>test</script>";
+  const userCreatedText = '<script>alert("hacked")</script>';
 
   return (
     <I18nProvider i18n={i18n}>
